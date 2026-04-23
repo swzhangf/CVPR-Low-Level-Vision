@@ -1,0 +1,606 @@
+# CVPR2026-Low-Level-Vision
+
+**This collection covers various tasks in low-level vision, including super-resolution, image deraining, image dehazing, deblurring, denoising, image restoration, image enhancement, image demoireing, inpainting, image quality assessment (IQA), frame interpolation, and image/video compression.**
+
+
+CVPR2026：[https://cvpr.thecvf.com/Conferences/2025](https://cvpr.thecvf.com/Conferences/2025)
+
+CVPR：[https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers](https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers)
+
+Conference Date: June 3, 2026 - June 7, 2026
+
+Paper Acceptance Notification: February 27, 2025
+
+**【Contents】**
+
+- [1.Super-Resolution](#1.Super-Resolution)
+- [2.Image Deraining](#2.Image%20Deraining)
+- [3.Image Dehazing](#3.Image%20Dehazing)
+- [4.Deblurring](#4.Deblurring)
+- [5.Denoising](#5.Denoising)
+- [6.Image Restoration](#6.Image%20Restoration)
+- [7.Image Enhancement](#7.Image%20Enhancement)
+- [8.Inpainting](#8.Inpainting)
+- [9.HDR Imaging](#9.HDR%20Imaging)
+- [10.Image Quality Assessment](#10.Image%20Quality%20Assessment)
+- [11.Frame Interpolation](#11.Frame%20Interpolation)
+- [12.Video/Image Compression](#12.VideoImage%20Compression)
+- [13.Compressed Image/Video Quality Enhancement](#13.Compressed%20ImageVideo%20Quality%20Enhancement)
+- [14.Image Reflection Removal](#14.Image%20Reflection%20Removal)
+- [15.Image Shadow Removal](#15.Image%20Shadow%20Removal)
+- [16.Image Colorization](#16.Image%20Colorization)
+- [17.Image Harmonization](#17.Image%20Harmonization)
+- [18.Video Stabilization](#18.Video%20Stabilization)
+- [19.Image Fusion](#19.Image%20Fusion)
+- [20.Others](#20.Others)
+
+<a name="1.Super-Resolution"></a>
+
+# 1.Super-Resolution
+
+### AlignVAR: Towards Globally Consistent Visual Autoregression for Image Super-Resolution
+- Paper: https://arxiv.org/abs/2603.00589
+- Code: 
+
+### Bridging Fidelity-Reality with Controllable One-Step Diffusion for Image Super-Resolution
+- Paper: https://arxiv.org/abs/2512.14061
+- Code: https://github.com/Chanson94/CODSR
+
+### Compressed-Domain-Aware Online Video Super-Resolution
+- Paper: https://arxiv.org/abs/2603.07694
+- Code: https://github.com/yuhangwang-ai/CDA-VSR
+  
+### Disentangled Textual Priors for Diffusion-based Image Super-Resolution
+- Paper: https://arxiv.org/abs/2603.07430
+- Code: 
+
+### Dual Graph Regularized Deep Unfolding Network for Guided Depth Map Super-resolution
+- Paper: 
+- Code: https://github.com/zhwzhong/LapNet
+  
+### DUO-VSR: Dual-Stream Distillation for One-Step Video Super-Resolution
+- Paper: https://arxiv.org/abs/2603.22271
+- Code: https://github.com/cszy98/DUO-VSR
+  
+### Edge-aware Multimodal Residual Diffusion Model for Hyperspectral Image Super-resolution
+- Paper:
+- Code: https://github.com/luocz55/EMR-Diff
+
+### FiDeSR: High-Fidelity and Detail-Preserving One-Step Diffusion Super-Resolution
+- Paper: https://arxiv.org/abs/2603.02692
+- Code: https://github.com/Ar0Kim/FiDeSR
+
+### FinPercep-RM: A Fine-grained Reward Model and Co-evolutionary Curriculum for RL-based Real-world Super-Resolution
+- Paper: https://arxiv.org/abs/2512.22647
+- Code: https://github.com/lyd-2022/FinPercep-RM
+
+### GDPO-SR: Group Direct Preference Optimization for One-Step Generative Image Super-Resolution
+- Paper: https://arxiv.org/abs/2603.16769
+- Code: https://github.com/Joyies/GDPO
+  
+### LSGQuant: Layer-Sensitivity Guided Quantization for One-Step Diffusion Real-World Video Super-Resolution
+- Paper: https://arxiv.org/abs/2602.03182
+- Code: https://github.com/zhengchen1999/LSGQuant
+  
+### Physics-Consistent Diffusion for Efficient Fluid Super-Resolution via Multiscale Residual Correction
+- Paper: https://arxiv.org/abs/2603.00149
+- Code: https://github.com/lizhihao2022/ReMD
+
+### RAW-Domain Degradation Models for Realistic Smartphone Super-Resolution
+- Paper: https://arxiv.org/abs/2603.12493
+- Code:
+
+### SAT: Selective Aggregation Transformer for Image Super-Resolution
+- Paper: https://arxiv.org/abs/2604.07994
+- Code:
+  
+### Spectral Super-Resolution via Adversarial Unfolding and Data-Driven Spectrum Regularization
+- Paper: https://arxiv.org/abs/2603.00920
+- Code:
+  
+### SR3R: Rethinking Super-Resolution 3D Reconstruction With Feed-Forward Gaussian Splatting
+- Paper: https://arxiv.org/abs/2602.24020
+- Code:
+
+### STCDiT: Spatio-Temporally Consistent Diffusion Transformer for High-Quality Video Super-Resolution
+- Paper: https://arxiv.org/abs/2511.18786
+- Code: https://github.com/JyChen9811/STCDiT
+
+### TextOVSR: Text-Guided Real-World Opera Video Super-Resolution
+- Paper: https://arxiv.org/abs/2603.15153
+- Code: https://github.com/ChangHua0/TextOVSR
+  
+### Towards Real-Time Diffusion-Based Streaming Video Super-Resolution
+- Paper: https://arxiv.org/abs/2510.12747
+- Code: https://github.com/OpenImagingLab/FlashVSR
+
+### Toward Real-world Infrared Image Super-Resolution: A Unified Autoregressive Framework and Benchmark Dataset
+- Paper: https://arxiv.org/abs/2603.04745
+- Code: https://github.com/JZD151/Real-IISR
+  
+### UCAN: Unified Convolutional Attention Network for Expansive Receptive Fields in Lightweight Super-Resolution
+- Paper: https://arxiv.org/abs/2603.11680
+- Code: https://github.com/hokiyoshi/UCAN
+
+### VoDaSuRe: A Large-Scale Dataset Revealing Domain Shift in Volumetric Super-Resolution
+- Paper: https://arxiv.org/abs/2603.23153
+- Code: https://augusthoeg.github.io/VoDaSuRe/
+
+### VOSR: A Vision-Only Generative Model for Image Super-Resolution
+- Paper: https://arxiv.org/abs/2604.03225
+- Code: https://github.com/cswry/VOSR
+  
+<a name="2.Image Deraining"></a>
+
+# 2.Image Deraining
+
+### UniRain: Unified Image Deraining with RAG-based Dataset Distillation and Multi-objective Reweighted Optimization
+- Paper: https://arxiv.org/abs/2603.03967
+- Code: https://github.com/QianfengY/UniRain
+
+<a name="3.Image Dehazing"></a>
+
+# 3.Image Dehazing
+
+### Bilevel Layer-Positioning LoRA for Real Image Dehazing
+- Paper:
+- Code: https://github.com/YanZhang-zy/BiLaLoRA
+
+### HazeMatching: Dehazing Light Microscopy Images with Guided Conditional Flow Matching
+- Paper: https://arxiv.org/abs/2506.22397
+- Code: https://github.com/juglab/HazeMatching
+
+<a name="4.Deblurring"></a>
+
+# 4.Deblurring
+
+### BluRef: Unsupervised Image Deblurring with Dense-Matching References
+- Paper: https://arxiv.org/abs/2603.14176
+- Code:
+
+### Gyro-based Deep Video Deblurring
+- Paper:
+- Code:
+  
+### Motion-Aware Animatable Gaussian Avatars Deblurring
+- Paper: https://arxiv.org/abs/2411.16758
+- Code: https://github.com/MyNiuuu/MAD-Avatar
+
+### OMoBlur: An Object Motion Blur Dataset and Benchmark for Real-World Local Motion Deblurring
+- Paper: 
+- Code: https://github.com/yudingchuan/OMDNet
+
+### Unblur-SLAM: Dense Neural SLAM for Blurry Inputs
+- Paper: https://arxiv.org/abs/2603.26810
+- Code: https://github.com/SlamMate/Unblur-SLAM
+
+<a name="5.Denoising"></a>
+
+# 5.Denoising
+
+### Diffusion-Based sRGB Real Noise Generation via Prompt-Driven Noise Representation Learning
+- Paper: https://arxiv.org/abs/2603.04870
+- Code: 
+
+### LF-BVN: Blind-View Network for Self-Supervised Light Field Denoising
+- Paper: 
+- Code:
+  
+### Statistical Characteristic-Guided Denoising for Rapid High-Resolution Transmission Electron Microscopy Imaging
+- Paper: https://arxiv.org/abs/2603.18834
+- Code: https://github.com/HeasonLee/SCGN
+
+### TM-BSN: Triangular-Masked Blind-Spot Network for Real-World Self-Supervised Denoising
+- Paper: https://arxiv.org/abs/2604.04484
+- Code: https://github.com/parkjun210/TM-BSN
+  
+
+<a name="6.Image Restoration"></a>
+
+# 6.Image Restoration
+
+### Beyond Ground-Truth: Leveraging Image Quality Priors for Real-World Image Restoration
+- Paper: https://arxiv.org/abs/2603.29773
+- Code:
+
+### EpiAgent: An Agent-Centric System for Ancient Inscription Restoration
+- Paper: https://arxiv.org/abs/2604.09367
+- Code: https://github.com/blackprotoss/EpiAgent
+  
+### Face2Scene: Using Facial Degradation as an Oracle for Diffusion-Based Scene Restoration
+- Paper: https://arxiv.org/abs/2603.16570
+- Code:
+  
+### FAPE-IR: Frequency-Aware Planning and Execution Framework for All-in-One Image Restoration
+- Paper: https://arxiv.org/abs/2511.14099
+- Code: https://github.com/Programmergg/FAPE-IR
+  
+### FoundIR-v2: Optimizing Pre-Training Data Mixtures for Image Restoration Foundation Model
+- Paper: https://arxiv.org/abs/2512.09282
+- Code: https://github.com/cschenxiang/FoundIR-v2
+  
+### gQIR: Generative Quanta Image Reconstruction
+- Paper: https://arxiv.org/abs/2602.20417
+- Code: https://github.com/Aryan-Garg/gQIR
+
+### GSNR: Graph Smooth Null-Space Representation for Inverse Problems
+- Paper: https://arxiv.org/abs/2602.20328
+- Code:
+  
+### Hybrid Agents for Image Restoration
+- Paper: https://arxiv.org/abs/2503.10120
+- Code:
+
+### NanoSD: Edge Efficient Foundation Model for Real Time Image Restoration
+- Paper: https://arxiv.org/abs/2601.09823
+- Code:
+  
+### PGDR-BambooSlips: Physics-Guided Multistep Deformation Reversal for Ancient Bamboo Slip Restoration
+- Paper: 
+- Code: https://github.com/VillanelleQQ/PGDR-BambooSlips
+
+### RDBM: Residual Diffusion Bridge Model for Image Restoration
+- Paper: https://arxiv.org/abs/2510.23116
+- Code: https://github.com/MiliLab/RDBM
+
+### Restore, Assess, Repeat: A Unified Framework for Iterative Image Restoration
+- Paper: https://arxiv.org/abs/2603.26385
+- Code: https://github.com/SamsungLabs/RAR
+  
+### Scan Clusters, Not Pixels: A Cluster-Centric Paradigm for Efficient Ultra-high-definition Image Restoration
+- Paper: https://arxiv.org/abs/2602.21917
+- Code: https://github.com/5chen/C2SSM
+  
+### ShiftLUT: Spatial Shift Enhanced Look-Up Tables for Efficient Image Restoration
+- Paper: https://arxiv.org/abs/2603.00906
+- Code: https://github.com/Sailor-t/ShiftLUT
+
+### Surgical Image Restoration Benchmark
+- Paper: https://arxiv.org/abs/2505.19161
+- Code: https://github.com/PJLallen/Surgical-Image-Restoration
+  
+### UCMNet: Uncertainty-Aware Context Memory Network for Under-Display Camera Image Restoration
+- Paper: 
+- Code: https://github.com/kdhRick2222/UCMNet
+
+### UniLDiff: Unlocking the Power of Diffusion Priors for All-in-One Image Restoration
+- Paper: https://arxiv.org/abs/2507.23685
+- Code:
+  
+### VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion and Restoration
+- Paper: https://arxiv.org/abs/2503.23359
+- Code: https://github.com/Linfeng-Tang/VideoFusion
+
+<a name="7.Image Enhancement"></a>
+
+# 7.Image Enhancement
+
+### EIC-LIE: Event-Illumination Collaborative Low-light Image Enhancement
+- Paper: 
+- Code: https://github.com/QUEAHREN/EIC-LIE
+
+### IF-Bench: Benchmarking and Enhancing MLLMs for Infrared Images
+- Paper: https://arxiv.org/abs/2512.09663
+- Code: https://github.com/casiatao/IF-Bench
+
+### Leveraging Multispectral Sensors for Color Correction in Mobile Cameras
+- Paper: https://arxiv.org/abs/2512.08441
+- Code: https://github.com/LucaCogo/Mobile-Spectral-CC
+
+### Multinex: Lightweight Low-Light Image Enhancement via Multi-prior Retinex
+- Paper: https://arxiv.org/abs/2604.10359
+- Code: https://github.com/albrateanu/multinex
+  
+### NEC-Diff: Noise-Robust Event-RAW Complementary Diffusion for Seeing Motion in Extreme Darkness
+- Paper: https://arxiv.org/abs/2603.20005
+- Code: https://github.com/jinghan-xu/NEC-Diff
+  
+<a name="8.Inpainting"></a>
+
+# 8.Inpainting
+
+### EffectErase: Joint Video Object Removal and Insertion for High-Quality Effect Erasing
+- Paper: https://arxiv.org/abs/2603.19224
+- Code: https://github.com/FudanCVL/EffectErase
+  
+### HiFi-Inpaint: Towards High-Fidelity Reference-Based Inpainting for Generating Detail-Preserving Human-Product Images
+- Paper: https://arxiv.org/abs/2603.02210
+- Code: https://github.com/Correr-Zhou/HiFi-Inpaint
+
+### InverFill: One-Step Inversion for Enhanced Few-Step Diffusion Inpainting
+- Paper: https://arxiv.org/abs/2603.23463
+- Code: 
+  
+### MAGIC: Few-Shot Mask-Guided Anomaly Inpainting
+- Paper: https://arxiv.org/abs/2507.02314
+- Code: https://github.com/SpatialAILab/MAGIC-Anomaly-generation
+
+### PHAC: Promptable Human Amodal Completion
+- Paper: https://arxiv.org/abs/2603.14741
+- Code:
+
+<a name="9.HDR Imaging"></a>
+
+# 9.HDR Imaging
+
+### Beyond8Bits: Full HDR UGC Dataset
+- Paper: 
+- Code: https://github.com/shreshthsaini/Beyond8Bits
+
+### F²HDR: Two-Stage HDR Video Reconstruction via Flow Adapter and Physical Motion Modeling
+- Paper: https://arxiv.org/abs/2603.14920
+- Code: https://github.com/wei1895/F2HDR
+
+### Olbedo: An Albedo and Shading Aerial Dataset for Large-Scale Outdoor Environments
+- Paper: https://arxiv.org/abs/2602.22025
+- Code: https://github.com/GDAOSU/Olbedo
+
+#### Seeing through Light and Darkness: Sensor-Physics Grounded Deblurring HDR NeRF from Single-Exposure Images and Events
+- Paper: https://arxiv.org/abs/2601.15475
+- Code: https://github.com/iCVTEAM/See-NeRF
+
+<a name="10.Image Quality Assessment"></a>
+
+# 10.Image Quality Assessment
+
+### A^3: Towards Advertising Aesthetic Assessment
+- Paper: https://arxiv.org/abs/2603.24037
+- Code: https://github.com/euleryuan/A3-Align
+  
+### ArtiMuse: Fine-Grained Image Aesthetics Assessment with Joint Scoring and Expert-Level Understanding
+- Paper: https://arxiv.org/abs/2507.14533
+- Code: https://github.com/thunderbolt215/ArtiMuse
+
+### Bridging the Perception Gap in Image Super-Resolution Evaluation
+- Paper: https://arxiv.org/abs/2503.13074
+- Code:
+  
+### Fine-grained Image Aesthetic Assessment: Learning Discriminative Scores from Relative Ranks
+- Paper: https://arxiv.org/abs/2603.03907
+- Code: https://github.com/yzc-ippl/FG-IAA
+
+### PR-IQA: Partial-Reference Image Quality Assessment for Diffusion Models
+- Paper: https://arxiv.org/abs/2604.04576
+- Code: https://github.com/Kakaomacao/PR-IQA
+  
+### QD-PCQA: Quality-Aware Domain Adaptation for Point Cloud Quality Assessment
+- Paper: https://arxiv.org/abs/2603.03726
+- Code: https://github.com/huhu-code/QD-PCQA
+
+### RL-ScanIQA: Reinforcement-Learned Scanpaths for Blind 360° Image Quality Assessment
+- Paper: https://arxiv.org/abs/2603.14297
+- Code: https://github.com/wangyuji1/RLScanIQA
+
+### rPPG-VQA: A Video Quality Assessment Framework for Unsupervised rPPG Training
+- Paper: https://arxiv.org/abs/2604.11156
+- Code: https://github.com/Tianyang-Dai/rPPG-VQA
+  
+<a name="11.Frame Interpolation"></a>
+
+# 11.Frame Interpolation
+
+### LDF-VFI: Towards Holistic Modeling for Video Frame Interpolation with Auto-regressive Diffusion Transformers
+- Paper: https://arxiv.org/abs/2601.14959
+- Code: https://github.com/xypeng9903/LDF-VFI
+
+
+
+<a name="12.Video/Image Compression"></a>
+
+# 12.Video/Image Compression
+
+### Adaptive Learned Image Compression with Graph Neural Networks
+- Paper: https://arxiv.org/abs/2603.25316
+- Code: https://github.com/UnoC-727/GLIC
+
+### Beyond Pixel Loss: Video-INRs Prefer Perceptual Optimization
+- Paper:
+- Code:
+  
+### CoD: A Diffusion Foundation Model for Image Compression
+- Paper: https://arxiv.org/abs/2511.18706
+- Code: https://github.com/microsoft/GenCodec/tree/main/CoD
+
+### Differentiable Vector Quantization for Rate-Distortion Optimization of Generative Image Compression
+- Paper: https://arxiv.org/abs/2604.10546
+- Code: https://github.com/CVL-UESTC/RDVQ
+  
+### DiT-IC: Aligned Diffusion Transformer for Efficient Image Compression
+- Paper:
+- Code: https://github.com/NJUVISION/DiT-IC
+
+### Generative Neural Video Compression via Video Diffusion Prior
+- Paper: https://arxiv.org/abs/2512.05016
+- Code:
+  
+### OmniZip: Learning a Unified and Lightweight Lossless Compressor for Multi-Modal Data
+- Paper: https://arxiv.org/abs/2602.22286
+- Code: https://github.com/adminasmi/OmniZip-CVPR2026
+
+### Parallax to Align Them All: An OmniParallax Attention Mechanism for Distributed Multi-View Image Compression
+- Paper: https://arxiv.org/abs/2603.03615
+- Code:
+  
+### Ultra-Low Bitrate Perceptual Image Compression with Shallow Encoder
+- Paper: https://arxiv.org/abs/2512.12229
+- Code: https://github.com/LuizScarlet/AEIC
+
+### What and Where to Adapt: Structure-Semantics Co-Tuning for Machine Vision Compression via Synergistic Adapters
+- Paper: https://arxiv.org/abs/2604.10017
+- Code: https://github.com/Brock-bit4/S2-CoT
+
+<a name="13.Compressed Image/Video Quality Enhancement"></a>
+
+# 13.Compressed Image/Video Quality Enhancement
+
+<a name="14.Image Reflection Removal"></a>
+
+# 14.Image Reflection Removal
+
+### GenSIRR: Rectifying Latent Space for Generative Single-Image Reflection Removal
+- Paper: 
+- Code: https://github.com/lime-j/GenSIRR
+  
+### GFRRN: Explore the Gaps in Single Image Reflection Removal
+- Paper: https://arxiv.org/abs/2602.22695
+- Code:
+  
+### ReflexSplit: Single Image Reflection Separation via Layer Fusion-Separation
+- Paper: https://www.arxiv.org/abs/2601.17468
+- Code: https://github.com/wuw2135/ReflexSplit
+
+
+<a name="15.Image Shadow Removal"></a>
+
+# 15.Image Shadow Removal
+
+### PhaSR: Generalized Image Shadow Removal with Physically Aligned Priors
+- Paper: https://arxiv.org/abs/2601.17470
+- Code: https://github.com/ming053l/PhaSR
+
+<a name="16.Image Colorization"></a>
+
+# 16.Image Colorization
+
+### ColorFLUX: A Structure-Color Decoupling Framework for Old Photo Colorization
+- Paper: https://arxiv.org/abs/2603.28162
+- Code: 
+
+### SketchDeco: Training-Free Latent Composition for Precise Sketch Colourisation
+- Paper: https://arxiv.org/abs/2405.18716
+- Code: https://github.com/CHAITron/sketchdeco-code
+
+<a name="17.Image Harmonization"></a>
+
+# 17.Image Harmonization
+
+<a name="18.Video Stabilization"></a>
+
+# 18.Video Stabilization
+
+### LightStab: Unsupervised Online Video Stabilization with Classical Priors
+- Paper: 
+- Code: https://github.com/liutao23/LightStab
+
+<a name="19.Image Fusion"></a>
+
+# 19.Image Fusion
+
+### Beyond Strict Pairing: Arbitrarily Paired Training for High-Performance Infrared and Visible Image Fusion
+- Paper: https://arxiv.org/abs/2603.21820
+- Code: https://github.com/yanglinDeng/IVIF_unpair
+
+### Customized Fusion: A Closed-Loop Dynamic Network for Adaptive Multi-Task-Aware Infrared-Visible Image Fusion
+- Paper: https://arxiv.org/abs/2604.08924
+- Code: https://github.com/YR0211/CLDyN
+
+### Degradation-Robust Fusion: An Efficient Degradation-Aware Diffusion Framework for Multimodal Image Fusion in Arbitrary Degradation Scenarios
+- Paper: https://arxiv.org/abs/2604.08922
+- Code:
+  
+### FusionRegister: Every Infrared and Visible Image Fusion Deserves Registration
+- Paper: 
+- Code: https://github.com/bociic/FusionRegister
+
+### Multi-Modal Image Fusion via Intervention-Stable Feature Learning
+- Paper: https://arxiv.org/abs/2603.23272
+- Code:
+  
+### Missing No More: Dictionary-Guided Cross-Modal Image Fusion under Missing Infrared
+- Paper: https://arxiv.org/abs/2603.08018
+- Code: https://github.com/harukiv/DCMIF
+  
+### RegionFuse: Region-Adaptive Pixel Distribution Learning for Infrared and Visible Image Fusion
+- Paper:
+- Code: https://github.com/DarkIceField/RegionFuse
+  
+### VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion and Restoration
+- Paper: https://arxiv.org/abs/2503.23359
+- Code: https://github.com/Linfeng-Tang/VideoFusion
+
+<a name="20.Others"></a>
+
+# 20.Others
+
+#### 3M-TI: High-Quality Mobile Thermal Imaging via Calibration-free Multi-Camera Cross-Modal Diffusion
+- Paper: https://arxiv.org/abs/2511.19117
+- Code: https://github.com/work-submit/3MTI
+
+### AceTone: Bridging Words and Colors for Conditional Image Grading
+- Paper: https://arxiv.org/abs/2604.00530
+- Code: https://github.com/martian422/AceTone
+  
+#### Cross-Scale Pansharpening via ScaleFormer and the PanScale Benchmark
+- Paper: https://arxiv.org/abs/2603.00543
+- Code: https://github.com/caoke-963/ScaleFormer
+
+#### D2Dewarp: Dual Dimensions Geometric Representation Learning Based Document Image Dewarping
+- Paper: https://arxiv.org/abs/2507.08492
+- Code: https://github.com/xiaomore/D2Dewarp
+
+### Dark3R: Learning Structure from Motion in the Dark
+- Paper: https://arxiv.org/abs/2603.05330
+- Code: https://github.com/andrewyguo/Dark3R
+  
+### Disentangle-then-Align: Non-Iterative Hybrid Multimodal Image Registration via Cross-Scale Feature Disentanglement
+- Paper: 
+- Code: https://github.com/Chunlei0913/HRNet
+
+### Elucidating the Design Space of Arbitrary-Noise-Based Diffusion Models
+- Paper: https://arxiv.org/abs/2507.18534
+- Code: https://github.com/PerceptionComputingLab/EDA
+
+### Exploring Spatiotemporal Feature Propagation for Video-Level Compressive Spectral Reconstruction: Dataset, Model and Benchmark
+- Paper: https://arxiv.org/abs/2603.00611
+- Code: https://github.com/nju-cite/DynaSpec
+
+### High-Quality and Efficient Turbulence Mitigation with Events
+- Paper: https://arxiv.org/abs/2603.20708
+- Code: https://github.com/Xavier667/EHETM
+  
+### It Takes Two: A Duet of Periodicity and Directionality for Burst Flicker Removal
+- Paper: https://arxiv.org/abs/2603.22794
+- Code: https://github.com/qulishen/Flickerformer
+
+### JarvisEvo: Towards a Self-Evolving Photo Editing Agent with Synergistic Editor-Evaluator Optimization
+- Paper: https://arxiv.org/abs/2511.23002
+- Code: https://github.com/LYL1015/JarvisEvo
+  
+### Learning Latent Transmission and Glare Maps for Lens Veiling Glare Removal
+- Paper: https://arxiv.org/abs/2511.17353
+- Code: https://github.com/XiaolongQian/DeVeiler
+  
+### LRDUN: A Low-Rank Deep Unfolding Network for Efficient Spectral Compressive Imaging
+- Paper: https://arxiv.org/abs/2511.18513
+- Code: https://github.com/huang-he99/LRDUN
+
+### MTRWKV: Multigrain-aware Semantic Prototype Scanning and Tri-Token Prompt Learning Embraced High-Order RWKV for Pan-Sharpening
+- Paper: 
+- Code: https://github.com/L1junfeng/MTRWKV
+
+### POS-ISP: Pipeline Optimization at the Sequence Level for Task-aware ISP
+- Paper: https://arxiv.org/abs/2604.06938
+- Code: https://github.com/w1jyun/POS-ISP
+  
+### PromptStereo: Zero-Shot Stereo Matching via Structure and Motion Prompts
+- Paper: https://arxiv.org/abs/2603.01650
+- Code:
+  
+### Reparameterized Tensor Ring Functional Decomposition for Multi-Dimensional Data Recovery
+- Paper: https://arxiv.org/abs/2603.01034
+- Code: https://github.com/YangyangXu2002/RepTRFD
+
+### SpiralDiff: Spiral Diffusion with LoRA for RGB-to-RAW Conversion Across Cameras
+- Paper: https://arxiv.org/abs/2603.14885
+- Code: https://github.com/Chuancy-TJU/SpiralDiff
+
+### Towards Universal Computational Aberration Correction in Photographic Cameras: A Comprehensive Benchmark Analysis
+- Paper: https://arxiv.org/abs/2603.12083
+- Code: https://github.com/XiaolongQian/UniCAC
+  
+### UnReflectAnything: RGB-Only Highlight Removal by Rendering Synthetic Specular Supervision
+- Paper: https://arxiv.org/abs/2512.09583
+- Code: https://github.com/alberto-rota/UnReflectAnything
+
+
+
